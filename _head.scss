@@ -1,0 +1,86 @@
+.header-container 
+{
+	height: 182px;
+	display: flex;
+	width: 1200px;
+	margin: auto;
+
+
+
+}
+
+.holder
+{
+	height: 10px;
+}
+
+
+
+.logo{
+	width: 14%;
+	height: 100%;
+}
+.mp
+{
+	width: 100px;
+	padding: 80px;
+	height: 11%;
+	color : #808080;
+	font-family :sans-serif;
+	text-align: center;
+	font-size: larger;
+a
+{
+	color: grey;
+	text-decoration: none;
+}
+}
+
+
+.links
+{
+	width:28%;
+	padding: 80px;
+	height: 11%;
+	float: right;
+	justify-content :space-around;
+	font-size: larger;
+	text-align: center;
+	color : #808080;
+	font-family :sans-serif;
+}
+
+.header-links {
+	width: 100%;
+	ul
+	{
+	display :flex;
+	}
+	a 
+    {
+	text-decoration: none;
+	margin-left: 10px;
+	color: grey;
+	hover
+{
+      text-decoration: underline;
+}
+    }
+}
+ul
+{
+	
+	list-style-type: none;
+
+}
+.nav-menu 
+{
+	margin-top: 78px;
+}
+
+.nav-menu-right {
+	margin-left: auto;
+}
+
+
+
