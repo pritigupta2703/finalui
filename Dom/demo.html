@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel = "stylesheet" type ="text/css" href="main.css">
+<script type="text/javascript" src="last.js" ></script>
+	</head>
+<body>
+
+<header> 
+			<div class = "header-container"> 
+			<ul>
+				<li>
+					<img src = "/Users/pritigupta/Downloads/DOM assignment/appdirect_logo.png" height="17px">
+
+				</li>
+				<li class=" link  holder "> My Apps
+				</li>
+				
+				<li class = " holder-second "> Marketplace  </li>
+			</ul>
+
+			<ul class="nav-menu-right">
+			<li> Account
+			</li>
+			<li class= "nav-menu-right-second " > 
+			
+			<div class="dropdown">
+  <button onclick="dropFunction()" class="dropbtn"> Priti Gupta ▼</button>
+  <div id="myDrop" class="dropdown-content">
+    <a href="#">Developer</a>
+    <a href="#">User</a>
+    <a href="#">Super User</a>
+  </div>
+</div>
+
+			</li>
+			</ul>
+
+</div>
+</header>
+<div>
+<ul class="middle">
+<li class = "left-body"> 
+<p> Registration Form</p>
+
+<form class = "shift" name= "registerForm"  action="" method="post">
+
+First Name : <input id = "namefirst" type ="text" name="firstname" size = "50px"  required><br><br><br>
+Last Name : <input type="text" name="lastname" size = "50px" ><br><br><br>
+Address (P) : <input type="text" name="addressper" size = "50px" required><br><br><br>
+<input type="checkbox" name="checkAddress" onclick="addresscheck(this.form)" size = "50px"><br>
+Address (C) : <input type="text" name="addresscur" size = "50px"><br><br><br>
+Email id : <input id = "emailid" type="text" name="emailid"  size = "54px" required><br><br><br>
+Phone No. : <input id = "phoneno" type="text" name="phoneno"  size = "50px" required> <br><br><br>
+Password : <input type="Password" name="passwordUser"  id = "txtPassword" oncopy="return false" onpaste="return false" size = "50px" required><br><br><br>
+Confirm Password : <input type="Password" name="confirmPassword" id = "txtConfirmPassword"  oncopy="return false" onpaste="return false" size = "50px"required><br><br><br>
+<input  id  = "button1" type="reset" name="reset" > 
+
+
+<button id = "button2" type="button" value=" submit" onclick="validateForm();"> Register </button>  
+</li>
+
+</form>
+
+<li class="right-body">
+<div class = "list-right">
+Dashboard </div>
+
+
+<ul id ="list">
+</ul>
+ </li>
+
+</div>
+
+<footer>
+	<div class = "footer">
+ <ul>
+ <li> <img src="/Users/pritigupta/Downloads/DOM assignment/appdirect_footer.png" height = "20px">
+ <li class = "li-down"> Powered by Appdirect ©2009-2017 </li>
+ </li>
+ </ul>
+ <ul class="ul-right">
+ <li class = "li-down" > <select class= "dropdown-lower" >
+ 	<option>Urdu</option>
+ 	<option>French</option>
+ 	<option>Chineese</option>
+ 	<option>Japnese</option>
+ </select>
+ </li>
+ <li class = "li-down">Help Center</li>
+ <li class = "li-down">Privacy Policy</li>
+ <li class = "li-down">Terms and Conditions</li>
+ <li class = "li-down">Contact</li>
+ </ul>
+</div>
+</footer>
+</body>
+</html>
