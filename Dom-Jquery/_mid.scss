@@ -1,0 +1,51 @@
+.middle {
+
+
+    
+    text-decoration: none ;
+    list-style-type: none;
+
+   display: flex;
+    //margin-left: 53px;
+    //margin-top: 10px;
+    //height: 800px;
+}
+
+
+
+.left-body{
+	border: 1px solid black;
+        margin-left: 20px;
+   width: 920px;
+   font-size: 18px;
+}
+
+
+
+.right-body{
+border: 1px solid black;
+        margin-left: 34px;
+   width: 340px;
+   font-size: 18px;
+   text-align: center;
+   height: 800px;
+   overflow: auto;
+}
+
+.list-right
+{
+	list-style-type:none;
+	text-align:center;
+	font-size:42px;
+	margin-top:25px;
+}
+#list
+{
+	
+	display:flex;
+	flex-direction :column;
+	margin-top:10px;
+	font-size:20px;
+
+
+	}
